@@ -50,3 +50,10 @@ switch (userType) {
 
 // Subscriber outpout
 console.log("User Category:", userCategory);
+
+// Declare boolean for authentication
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+
+// Output of authentication
+console.log("Authentication Status:", authenticationStatus);
